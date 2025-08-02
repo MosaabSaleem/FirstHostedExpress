@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import StripeCheckout from './StripeCheckout';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           WE ARE ONLINE!!!!
@@ -18,7 +19,8 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      <StripeCheckout />
     </div>
   );
 }
